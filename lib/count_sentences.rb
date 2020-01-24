@@ -19,4 +19,5 @@ class String
     self.scan(/[^\.!?]+[\.!?]/).each(&:strip).count
   end
 
+  
 end
